@@ -17,8 +17,8 @@ export type ProductSize = {
 
 export const product = {
   id: "camisa-torcedor-2026",
-  brand: "Camisa Versão Torcedor 2026/27",
-  name: "Camisa Versão Torcedor 2026/27 unissex",
+  brand: "Camisa torcedor",
+  name: "2026/2027",
   rating: 4.9,
   reviews: 1342,
   // Preços em centavos
