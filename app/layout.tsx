@@ -16,9 +16,9 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: 'Camisa Brasil Torcedor 2026/27 | Camisa10',
+  title: 'Camisa Versão Torcedor 2026/27 unissex',
   description:
-    'Camisa Brasil Torcedor 2026/27 masculina. Compre com desconto no PIX, frete grátis na primeira compra e até 10x sem juros na Camisa10.',
+    'Camisa Versão Torcedor 2026/27 unissex. Compre com desconto no PIX, frete grátis na primeira compra e até 10x sem juros na Camisa10.',
   generator: 'v0.app',
   icons: {
     icon: [
