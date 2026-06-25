@@ -16,8 +16,8 @@ export type ProductSize = {
 }
 
 export const product = {
-  id: "camisa-brasil-torcedor-2026",
-  brand: "Seleção Brasileira",
+  id: "camisa-torcedor-2026",
+  brand: "Camisa Versão Torcedor 2026/27",
   name: "Camisa Versão Torcedor 2026/27 unissex",
   rating: 4.9,
   reviews: 1342,
@@ -28,7 +28,7 @@ export const product = {
   offerPriceCents: 2990, // preço da oferta relâmpago (pop-up de saída) = R$ 29,90
   maxInstallments: 10,
   description:
-    "A Camisa Brasil Torcedor 2026/27 traz o amarelo clássico que representa a paixão nacional, com um design inspirado nos uniformes da seleção e o estilo cheio de energia que combina com a torcida. Modelada com base nas peças usadas pelos profissionais, a linha Torcedor une o visual dos times a uma tecnologia antissuor para o look perfeito na arquibancada ou no dia a dia. O tecido com gerenciamento de umidade absorve o suor para uma evaporação mais rápida, mantendo o corpo seco e confortável durante todo o jogo.",
+    "A Camisa Versão Torcedor 2026/27 traz o amarelo clássico que representa a paixão nacional, com um design inspirado nos uniformes da seleção e o estilo cheio de energia que combina com a torcida. Modelada com base nas peças usadas pelos profissionais, a linha Torcedor une o visual dos times a uma tecnologia antissuor para o look perfeito na arquibancada ou no dia a dia. O tecido com gerenciamento de umidade absorve o suor para uma evaporação mais rápida, mantendo o corpo seco e confortável durante todo o jogo.",
   specs: [
     { label: "Cor", value: "Amarelo" },
     { label: "Material", value: "100% Poliéster" },
@@ -39,15 +39,15 @@ export const product = {
     { label: "Garantia", value: "90 dias contra defeitos de fabricação" },
   ],
   images: [
-    { src: "/images/produto-0.png", alt: "Camisa Brasil amarela - foto 0" },
-    { src: "/images/produto-1.avif", alt: "Camisa Brasil amarela - foto 1" },
-    { src: "/images/produto-2.png", alt: "Camisa Brasil amarela - foto 2" },
-    { src: "/images/produto-3.png", alt: "Camisa Brasil amarela - foto 3" },
-    { src: "/images/produto-4.png", alt: "Camisa Brasil amarela - foto 4" },
-    { src: "/images/produto-5.png", alt: "Camisa Brasil amarela - foto 5" },
-    { src: "/images/produto-8.avif", alt: "Camisa Brasil amarela - foto 8" },
-    { src: "/images/produto-9.avif", alt: "Camisa Brasil amarela - foto 9" },
-    { src: "/images/produto-10.png", alt: "Camisa Brasil amarela - foto 10" },
+    { src: "/images/produto-0.png", alt: "Camisa amarela - foto 0" },
+    { src: "/images/produto-1.avif", alt: "Camisa amarela - foto 1" },
+    { src: "/images/produto-2.png", alt: "Camisa amarela - foto 2" },
+    { src: "/images/produto-3.png", alt: "Camisa amarela - foto 3" },
+    { src: "/images/produto-4.png", alt: "Camisa amarela - foto 4" },
+    { src: "/images/produto-5.png", alt: "Camisa amarela - foto 5" },
+    { src: "/images/produto-8.avif", alt: "Camisa amarela - foto 8" },
+    { src: "/images/produto-9.avif", alt: "Camisa amarela - foto 9" },
+    { src: "/images/produto-10.png", alt: "Camisa amarela - foto 10" },
   ],
   sizes: [
     { label: "P", available: true },
