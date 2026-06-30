@@ -133,6 +133,11 @@ export function CheckoutClient() {
     }
   }
 
+  // Rola a tela para o topo ao mudar de etapa ou ao gerar o PIX
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" })
+  }, [step, status])
+
   // Polling do status de pagamento
   useEffect(() => {
     if (status !== "pix" || !charge) return
