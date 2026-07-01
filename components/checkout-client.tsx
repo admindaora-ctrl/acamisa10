@@ -138,6 +138,15 @@ export function CheckoutClient() {
     window.scrollTo({ top: 0, behavior: "smooth" })
   }, [step, status])
 
+  // Se o cliente já gerou o QR Code e depois aceitou o desconto (promo=1),
+  // regenera automaticamente o PIX com o novo valor menor.
+  useEffect(() => {
+    if (status === "pix" && charge && charge.amountCents !== effectivePixCents) {
+      handleGeneratePix()
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [effectivePixCents])
+
   // Polling do status de pagamento
   useEffect(() => {
     if (status !== "pix" || !charge) return
